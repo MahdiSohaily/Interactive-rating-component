@@ -16,32 +16,48 @@
 </head>
 
 <body>
+  <main>
+    <div id="demo" class="card">
+      <header class="padding-block-100">
+        <img class="star" src="./public/images/icon-star.svg" alt="">
+        <h1 class="fw-700"> How did we do? </h1>
+      </header>
+      <div>
+        <p class="intro fw-400">
+          Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!
+        </p>
+        <form class="padding-block-600" method="post" name="rating" action="#">
+            <!-- <label for="1">1</label> -->
+            <input type="radio" name="rate" id="1" value="1">
+          <input type="radio" name="rate" id="2" value="2">
+          <!-- <label for="2">2</label> -->
+          <input type="radio" name="rate" id="3" value="3">
+          <!-- <label for="3">3</label> -->
+          <input type="radio" name="rate" id="4" value="4">
+          <!-- <label for="4">4</label> -->
+          <input type="radio" name="rate" id="5" value="5">
+          <!-- <label for="5">5</label> -->
+        </form>
+      </div>
+      <footer>
+        <button class="fw-700" form="rating" type="submit"
+        onclick="getValue()"> Submit</button>
+      </footer>
+    </div>
 
-  <!-- Rating state start -->
-
-  <h1> How did we do? </h1>
-
-  Please let us know how we did with your support request. All feedback is appreciated
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected
-  <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support,
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
+    <div onclick="resetStyle()" id="result_card" class="card centered">
+      <header>
+        <img class="padding-block-300" src="./public/images/illustration-thank-you.svg" alt="">
+        <p class="caption text-light-orange padding-block-200"> You selected <span id="result"></span> out of 5</p>
+      </header>
+      <div>
+        <h1>Thank you!</h1>
+        <p class="intro padding-block-500">   We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!</p>
+      </div>
+    </div>
+  </main>
   <script src="./public/js/main.js"></script>
 
 </body>

@@ -1,3 +1,103 @@
-.primary-heading{
-    font-size: 2rem;
+@use 'root';
+$light-orange: hsl(25, 91%, 64%);
+$medium-orange: hsl(25, 97%, 53%);
+$dark-orange: hsl(25, 85%, 35%);
+
+$White: hsl(0, 0%, 100%);
+$light-gray: hsl(217, 12%, 63%);
+$medium-gray: hsl(216, 12%, 54%);
+$dark-gray: hsl(218, 10%, 35%);
+
+$light-blue: hsl(212, 21%, 31%);
+$medium-blue: hsl(213, 19%, 18%);
+$dark-blue: hsl(216, 12%, 8%);
+/* Utility  classes*/
+.bg-light-orange {
+    background-color: root.$light-orange;
+}
+.bg-medium-orange {
+    background-color: root.$medium-orange;
+}
+.bg-dark-orange {
+    background-color: root.$dark-orange;
+}
+.bg-light-gray {
+    background-color: root.$light-gray;
+}
+.bg-medium-gray {
+    background-color: root.$light-orange;
+}
+.bg-dark-gray {
+    background-color: root.$dark-gray;
+}
+.bg-light-blue {
+    background-color: root.$light-blue;
+}
+.bg-medium-blue {
+    background-color: root.$medium-blue;
+}
+.bg-dark-blue {
+    background-color: root.$dark-blue;
+}
+.text-light-orange {
+    color: root.$light-orange;
+}
+.text-medium-orange {
+    color: root.$medium-orange;
+}
+.text-dark-orange {
+    color: root.$dark-orange;
+}
+.text-light-gray {
+    color: root.$light-gray;
+}
+.text-medium-gray {
+    color: root.$light-orange;
+}
+.text-dark-gray {
+    color: root.$dark-gray;
+}
+.text-light-blue {
+    color: root.$light-blue;
+}
+.text-medium-blue {
+    color: root.$medium-blue;
+}
+.text-dark-blue {
+    color: root.$dark-blue;
+}
+
+.padding-block-100{
+    padding-block: root.$size-100;
+}
+.padding-block-200{
+    padding-block: root.$size-200;
+}
+.padding-block-300{
+    padding-block: root.$size-300;
+}
+.padding-block-400{
+    padding-block: root.$size-400;
+}
+.padding-block-500{
+    padding-block: root.$size-500;
+}
+.padding-block-600{
+    padding-block: root.$size-600;
+}
+.padding-block-700{
+    padding-block: root.$size-700;
+}
+.padding-block-800{
+    padding-block: root.$size-800;
+}
+.padding-block-900{
+    padding-block: root.$size-900;
+}
+
+.fw-700{
+    font-weight: root.$fw-700;
+}
+.fw-400{
+    font-weight: root.$fw-400;
 }

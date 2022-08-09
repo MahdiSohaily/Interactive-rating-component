@@ -8,6 +8,7 @@ $medium-gray: hsl(216, 12%, 54%);
 $dark-gray: hsl(218, 10%, 35%);
 
 $light-blue: hsl(212, 21%, 31%);
+$medium-blue-100: hsl(211, 20%, 21%);
 $medium-blue: hsl(213, 19%, 18%);
 $dark-blue: hsl(216, 12%, 8%);
 
@@ -17,3 +18,59 @@ $fs-paragraph: 15px;
 
 $fw-400: 400;
 $fw-700: 700;
+
+$size-100: 0.25rem;
+$size-200: 0.5rem;
+$size-300: 1rem;
+$size-400: 1.25rem;
+$size-500: 1.5rem;
+$size-600: 2rem;
+$size-700: 3rem;
+$size-800: 5rem;
+$size-900: 8rem;
+
+/* root variables for style */
+:root {
+  --light-orange: #{$light-orange};
+  --medium-orange: #{$medium-orange};
+  --dark-orange: #{$dark-orange};
+
+  --white: #{$White};
+  --light-gray: #{$light-gray};
+  --medium-gray: #{$medium-gray};
+  --dark-gray: #{$dark-gray};
+
+  --light-blue: #{$light-blue};
+  --medium-blue: #{$medium-blue};
+  --dark-blue: #{$dark-blue};
+
+  --font-family: #{$font-family};
+  --fs-paragraph: #{$fs-paragraph};
+
+  --fw-400: #{$fw-400};
+  --fw-700: #{$fw-700};
+
+  --size-100: #{$size-100};
+  --size-200: #{$size-200};
+  --size-300: #{$size-300};
+  --size-400: #{$size-400};
+  --size-500: #{$size-500};
+  --size-600: #{$size-600};
+  --size-700: #{$size-700};
+  --size-800: #{$size-800};
+  --size-900: #{$size-900};
+}
+
+/* general document styles*/
+*{
+    font-family: var(--font-family);
+}
+
+body {
+    background-color: $dark-blue;
+    color: $light-gray;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: $White;
+}
