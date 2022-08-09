@@ -223,13 +223,13 @@ main {
 .card {
   display: inline-block;
   border-radius: 1.5rem;
-  background-image: linear-gradient(to bottom, #232a34, #232a34, #171e28);
+  background-image: linear-gradient(to bottom, #232a34, #171e28, #171e28);
   padding: 2rem;
   margin: 1.25rem;
 }
 
 .star {
-  background-color: #262f34;
+  background-color: #262f38;
   padding: 1rem;
   margin-bottom: 2rem;
   border-radius: 50%;
@@ -315,7 +315,7 @@ button:hover {
 }
 
 .desc {
-  max-width: 35ch;
+  max-width: 33ch;
 }
 
 /*# sourceMappingURL=styles.css.map */
