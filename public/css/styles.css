@@ -299,6 +299,7 @@ button:hover {
 .centered {
   text-align: center;
   display: none;
+  padding-inline: 2rem;
 }
 .centered img {
   display: block;
@@ -311,6 +312,10 @@ button:hover {
   border-radius: 100vmax;
   background-color: #272E38;
   padding-inline: 1rem;
+}
+
+.desc {
+  max-width: 35ch;
 }
 
 /*# sourceMappingURL=styles.css.map */

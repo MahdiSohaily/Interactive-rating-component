@@ -93,6 +93,7 @@ button {
 .centered {
   text-align: center;
   display: none;
+  padding-inline: root.$size-600;
 
   img {
     display: block;
@@ -107,4 +108,7 @@ button {
     background-color: #272E38;
     padding-inline: root.$size-300;
   }
+}
+.desc{
+  max-width: 35ch;
 }
