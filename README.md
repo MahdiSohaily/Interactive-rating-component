@@ -24,15 +24,17 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
-
+- Screenshot of the challenge
 ![Challenge Screenshot](./design/desktop-preview.jpg)
+- Screenshot of the solution
 ![Solution Screenshot](./design/rating.png)
+- Screenshot of the solution
 ![Solution Screenshot](./design/thank%20you.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://mahdisohaily.github.io/Interactive-rating-component/index.html)
 
 ## My process
 
@@ -47,5 +49,5 @@ Users should be able to:
 - [vite.js](https://vitejs.dev/) - Vite is a build tool
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/your)
+- Frontend Mentor - [@MahdiSohaily](https://www.frontendmentor.io/profile/MahdiSohaily)
+- Twitter - [@Mahdi_Rezaei_AF](https://twitter.com/Mahdi_Rezaei_AF)
