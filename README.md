@@ -26,7 +26,7 @@ Users should be able to:
 ### Screenshot
 | Desktop version                              |               Mobile Version                |
 | -------------------------------------------- | :-----------------------------------------: |
-| ![Solution Screenshot](./design/rating.png) | ![Solution Screenshot](./design/thank you.png) |
+| ![Solution Screenshot](./design/rating.png) | ![Solution Screenshot](./design/thank%20you.png) |
 
 ### Links
 
