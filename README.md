@@ -24,17 +24,14 @@ Users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ### Screenshot
-- Screenshot of the challenge
-![Challenge Screenshot](./design/desktop-preview.jpg)
-- Screenshot of the solution
-![Solution Screenshot](./design/rating.png)
-- Screenshot of the solution
-![Solution Screenshot](./design/thank%20you.png)
+| Desktop version                              |               Mobile Version                |
+| -------------------------------------------- | :-----------------------------------------: |
+| ![Solution Screenshot](./design/desktop.png) | ![Solution Screenshot](./design/mobile.png) |
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://mahdisohaily.github.io/Interactive-rating-component/index.html)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-HlgBq74bSn)
+- Live Site URL: [live site URL](https://mahdisohaily.github.io/Interactive-rating-component/)
 
 ## My process
 
